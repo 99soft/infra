@@ -37,4 +37,66 @@
         </license>
     </licenses>
 
+    <scm>
+        <developerConnection>scm:git:git@github.com:99soft/infra.git</developerConnection>
+        <connection>scm:git:git@github.com:99soft/infra.git</connection>
+        <url>git@github.com:99soft/infra.git</url>
+    </scm>
+
+    <issueManagement>
+        <system>GitHub Issue Management</system>
+        <url>https://github.com/99soft/infra/issues</url>
+    </issueManagement>
+
+    <repositories>
+        <repository>
+            <id>sonatype-nexus-snapshots</id>
+            <name>Sonatype Nexus Snapshots</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>sonatype-nexus-snapshots</id>
+            <name>Sonatype Nexus Snapshots</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+
+        <repository>
+            <id>sonatype-nexus-staging</id>
+            <name>Nexus Release Repository</name>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
+
+    <developers>
+        <developer>
+            <id>marcosperanza</id>
+            <name>Marco Speranza</name>
+            <email>marco [dot] speranza79 [at] gmail dot com</email>
+        </developer>
+
+        <developer>
+            <id>simonetripodi</id>
+            <name>Simone Tripodi</name>
+            <email>simone [dot] tripodi [at] gmail dot com</email>
+        </developer>
+    </developers>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <javac.src.version>1.5</javac.src.version>
+        <javac.target.version>1.5</javac.target.version>
+        <maven.build.timestamp.format>yyyy-MM-dd HH:mm:ssZ</maven.build.timestamp.format>
+        <clirr.comparisonVersion>${project.version}</clirr.comparisonVersion>
+    </properties>
+
 </project>

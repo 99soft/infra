@@ -78,15 +78,21 @@
 
     <developers>
         <developer>
+            <id>dpalmisano</id>
+            <name>Davide Palmisano</name>
+            <email>dpalmisano [at] gmail [dot] com</email>
+        </developer>
+
+        <developer>
             <id>marcosperanza</id>
             <name>Marco Speranza</name>
-            <email>marco [dot] speranza79 [at] gmail dot com</email>
+            <email>marco [dot] speranza79 [at] gmail [dot] com</email>
         </developer>
 
         <developer>
             <id>simonetripodi</id>
             <name>Simone Tripodi</name>
-            <email>simone [dot] tripodi [at] gmail dot com</email>
+            <email>simone [dot] tripodi [at] gmail [dot] com</email>
         </developer>
     </developers>
 

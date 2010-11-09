@@ -82,18 +82,24 @@
             <id>dpalmisano</id>
             <name>Davide Palmisano</name>
             <email>dpalmisano [at] gmail [dot] com</email>
+            <url>http://davidepalmisano.com/</url>
+            <timezone>+1</timezone>
         </developer>
 
         <developer>
             <id>marcosperanza</id>
             <name>Marco Speranza</name>
             <email>marco [dot] speranza79 [at] gmail [dot] com</email>
+            <url>http://www.marcosperanza.org/</url>
+            <timezone>+1</timezone>
         </developer>
 
         <developer>
             <id>simonetripodi</id>
             <name>Simone Tripodi</name>
             <email>simone [dot] tripodi [at] gmail [dot] com</email>
+            <url>http://people.apache.org/~simonetripodi</url>
+            <timezone>+1</timezone>
         </developer>
     </developers>
 
@@ -368,33 +374,6 @@
                         <useReleaseProfile>false</useReleaseProfile>
                         <arguments>-Prelease</arguments>
                     </configuration>
-                </plugin>
-
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-assembly-plugin</artifactId>
-                    <version>2.2</version>
-                    <dependencies>
-                        <dependency>
-                            <groupId>org.99soft</groupId>
-                            <artifactId>bundle-descriptor</artifactId>
-                            <version>${project.version}</version>
-                        </dependency>
-                    </dependencies>
-                    <executions>
-                        <execution>
-                            <phase>package</phase>
-                            <goals>
-                                <goal>single</goal>
-                            </goals>
-                            <configuration>
-                                <attach>false</attach>
-                                <descriptorRefs>
-                                    <descriptorRef>bundle</descriptorRef>
-                                </descriptorRefs>
-                            </configuration>
-                        </execution>
-                    </executions>
                 </plugin>
 
                 <plugin>

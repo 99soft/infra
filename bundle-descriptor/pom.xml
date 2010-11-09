@@ -30,12 +30,6 @@
     <artifactId>bundle-descriptor</artifactId>
     <name>99soft :: base bundle descriptor</name>
 
-    <scm>
-        <url>scm:svn:https://mybatis.googlecode.com/svn/sub-projects/base-bundle-descriptor/trunk</url>
-        <connection>scm:svn:https://mybatis.googlecode.com/svn/sub-projects/base-bundle-descriptor/trunk</connection>
-        <developerConnection>scm:svn:https://mybatis.googlecode.com/svn/sub-projects/base-bundle-descriptor/trunk</developerConnection>
-    </scm>
-
     <build>
         <plugins>
             <plugin>
@@ -43,20 +37,6 @@
                 <artifactId>maven-release-plugin</artifactId>
             </plugin>
         </plugins>
-
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-            </resource>
-
-            <resource>
-                <directory>.</directory>
-                <targetPath>META-INF</targetPath>
-                <includes>
-                    <include>LICENSE</include>
-                </includes>
-            </resource>
-        </resources>
     </build>
 
 </project>

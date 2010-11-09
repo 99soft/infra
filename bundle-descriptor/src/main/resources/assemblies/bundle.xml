@@ -44,9 +44,6 @@
         <file>
             <source>NOTICE</source>
         </file>
-        <file>
-            <source>README</source>
-        </file>
     </files>
 
     <dependencySets>

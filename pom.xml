@@ -21,7 +21,7 @@
     <artifactId>99soft-parent</artifactId>
     <packaging>pom</packaging>
     <version>1-SNAPSHOT</version>
-    <name>99soft :: parent pom</name>
+    <name>99soft parent pom</name>
     <url>http://www.mybatis.org/</url>
     <inceptionYear>2010</inceptionYear>
 
@@ -115,12 +115,6 @@
 
     <reporting>
         <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-javadoc-plugin</artifactId>
-                <version>2.7</version>
-            </plugin>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-project-info-reports-plugin</artifactId>
@@ -325,6 +319,20 @@
                         </configuration>
                     </execution>
                 </executions>
+                <configuration>
+                    <bootclasspath>${sun.boot.class.path}</bootclasspath>
+                    <docletArtifact>
+                        <groupId>com.google.doclava</groupId>
+                        <artifactId>doclava</artifactId>
+                        <version>1.0.2</version>
+                    </docletArtifact>
+                    <doclet>com.google.doclava.Doclava</doclet>
+                    <additionalparam>
+                        -hdf project.name "${project.name}"
+                        -d ${project.build.directory}/apidocs
+                    </additionalparam>
+                    <useStandardDocletOptions>false</useStandardDocletOptions>
+                </configuration>
             </plugin>
 
             <plugin>

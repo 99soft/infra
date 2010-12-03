@@ -305,6 +305,7 @@
                             <goal>jar</goal>
                         </goals>
                         <configuration>
+                            <quiet>true</quiet>
                             <archive>
                                 <manifest>
                                     <addDefaultImplementationEntries>true</addDefaultImplementationEntries>

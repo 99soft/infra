@@ -75,6 +75,11 @@
             <name>Nexus Release Repository</name>
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
+
+        <site>
+            <id>99soft.org</id>
+            <url>${distributionManagement.siteLocation}/${site.path}</url>
+        </site>
     </distributionManagement>
 
     <developers>

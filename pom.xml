@@ -125,6 +125,12 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>2.7</version>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-project-info-reports-plugin</artifactId>
                 <version>2.2</version>
             </plugin>
@@ -340,7 +346,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
-                <version>2.7</version>
                 <executions>
                     <execution>
                         <id>attach-javadocs</id>
@@ -363,20 +368,6 @@
                         </configuration>
                     </execution>
                 </executions>
-                <configuration>
-                    <bootclasspath>${sun.boot.class.path}</bootclasspath>
-                    <docletArtifact>
-                        <groupId>com.google.doclava</groupId>
-                        <artifactId>doclava</artifactId>
-                        <version>1.0.2</version>
-                    </docletArtifact>
-                    <doclet>com.google.doclava.Doclava</doclet>
-                    <additionalparam>
-                        -hdf project.name "${project.name}"
-                        -d ${project.build.directory}/apidocs
-                    </additionalparam>
-                    <useStandardDocletOptions>false</useStandardDocletOptions>
-                </configuration>
             </plugin>
 
             <plugin>
@@ -411,6 +402,12 @@
 
         <pluginManagement>
             <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-javadoc-plugin</artifactId>
+                    <version>2.7</version>
+                </plugin>
+
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>cobertura-maven-plugin</artifactId>
@@ -483,6 +480,38 @@
                                 </goals>
                             </execution>
                         </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+
+        <!--
+         | Doclava requires Java6
+        -->
+        <profile>
+            <id>doclava</id>
+            <activation>
+                <jdk>1.6</jdk>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <artifactId>maven-javadoc-plugin</artifactId>
+                        <configuration>
+                            <bootclasspath>${sun.boot.class.path}</bootclasspath>
+                            <doclet>com.google.doclava.Doclava</doclet>
+                            <useStandardDocletOptions>false</useStandardDocletOptions>
+                            <docletArtifact>
+                                <groupId>com.google.doclava</groupId>
+                                <artifactId>doclava</artifactId>
+                                <version>1.0.2</version>
+                            </docletArtifact>
+                            <additionalparam>
+                                -hdf project.name "${project.name}"
+                                -d ${project.build.directory}/apidocs
+                                -quiet
+                            </additionalparam>
+                        </configuration>
                     </plugin>
                 </plugins>
             </build>

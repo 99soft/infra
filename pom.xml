@@ -78,7 +78,7 @@
 
         <site>
             <id>99soft.org</id>
-            <url>${distributionManagement.siteLocation}/${site.path}</url>
+            <url>${distributionManagement.siteLocation}/${project.artifactId}/${project.version}</url>
         </site>
     </distributionManagement>
 

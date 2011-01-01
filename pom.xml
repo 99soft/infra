@@ -21,7 +21,7 @@
     <artifactId>oss-parent</artifactId>
     <packaging>pom</packaging>
     <version>1-SNAPSHOT</version>
-    <name>99soft parent pom</name>
+    <name>99 Software Foundation parent pom</name>
     <description>The 99 Software Foundation parent pom</description>
     <url>https://github.com/99soft/</url>
     <inceptionYear>2010</inceptionYear>

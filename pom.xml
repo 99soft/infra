@@ -40,9 +40,9 @@
     </licenses>
 
     <scm>
-        <developerConnection>scm:git:git@github.com:99soft/infra.git</developerConnection>
-        <connection>scm:git:git@github.com:99soft/infra.git</connection>
-        <url>git@github.com:99soft/infra.git</url>
+        <url>http://github.com/99soft/infra</url>
+        <connection>scm:git:ssh://github.com/99soft/infra.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/99soft/infra.git</developerConnection>
     </scm>
 
     <issueManagement>
@@ -78,8 +78,8 @@
         </repository>
 
         <site>
-            <id>99soft.org</id>
-            <url>${distributionManagement.siteLocation}/${project.artifactId}/${project.version}</url>
+            <id>github</id>
+            <url>gitsite:git@github.com/99soft/${site.branchName}.git:${project.version}</url>
         </site>
     </distributionManagement>
 
@@ -117,6 +117,10 @@
         <maven.build.timestamp.format>yyyy-MM-dd HH:mm:ssZ</maven.build.timestamp.format>
         <implementation.build>${maven.build.timestamp}</implementation.build>
         <project.previousVersion>${project.version}</project.previousVersion>
+        <!--
+         | Site project location
+        -->
+        <site.branchName>${project.artifactId}</site.branchName>
         <!--
          | OSGi configuration properties
         -->

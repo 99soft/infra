@@ -18,7 +18,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.99soft</groupId>
-    <artifactId>99soft-parent</artifactId>
+    <artifactId>oss-parent</artifactId>
     <packaging>pom</packaging>
     <version>1-SNAPSHOT</version>
     <name>99soft parent pom</name>

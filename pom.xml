@@ -23,7 +23,7 @@
     <version>1-SNAPSHOT</version>
     <name>99soft parent pom</name>
     <description>The 99 Software Foundation parent pom</description>
-    <url>http://www.mybatis.org/</url>
+    <url>https://github.com/99soft/</url>
     <inceptionYear>2010</inceptionYear>
 
     <organization>

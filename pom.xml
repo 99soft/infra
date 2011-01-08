@@ -289,7 +289,7 @@
                 </executions>
                 <configuration>
                     <excludeDependencies>true</excludeDependencies>
-                    <manifestLocation>${osgi}</manifestLocation>
+                    <manifestLocation>${project.build.directory}/osgi</manifestLocation>
                     <supportedProjectTypes>
                         <supportedProjectType>jar</supportedProjectType>
                         <supportedProjectType>bundle</supportedProjectType>

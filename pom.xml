@@ -79,7 +79,7 @@
 
         <site>
             <id>github</id>
-            <url>gitsite:git@github.com/99soft/${site.branchName}.git:${project.version}</url>
+            <url>gitsite:git@github.com/99soft/${site.gitName}.git</url>
         </site>
     </distributionManagement>
 
@@ -120,7 +120,7 @@
         <!--
          | Site project location
         -->
-        <site.branchName>${project.artifactId}</site.branchName>
+        <site.gitName>${project.artifactId}</site.gitName>
         <!--
          | OSGi configuration properties
         -->

@@ -79,7 +79,7 @@
 
         <site>
             <id>github</id>
-            <url>gitsite:git@github.com/99soft/${site.gitName}.git</url>
+            <url>gitsite:git@github.com/99soft/${project.artifactId}.git</url>
         </site>
     </distributionManagement>
 
@@ -117,10 +117,6 @@
         <maven.build.timestamp.format>yyyy-MM-dd HH:mm:ssZ</maven.build.timestamp.format>
         <implementation.build>${maven.build.timestamp}</implementation.build>
         <project.previousVersion>${project.version}</project.previousVersion>
-        <!--
-         | Site project location
-        -->
-        <site.gitName>${project.artifactId}</site.gitName>
         <!--
          | OSGi configuration properties
         -->

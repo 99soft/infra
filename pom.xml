@@ -548,9 +548,42 @@
         -->
         <profile>
             <id>doclava</id>
+
             <activation>
                 <jdk>1.6</jdk>
             </activation>
+
+            <reporting>
+                <plugins>
+                    <plugin>
+                        <artifactId>maven-javadoc-plugin</artifactId>
+                        <configuration>
+                            <bootclasspath>${sun.boot.class.path}</bootclasspath>
+                            <doclet>com.google.doclava.Doclava</doclet>
+                            <useStandardDocletOptions>false</useStandardDocletOptions>
+                            <additionalJOption>-J-Xmx1024m</additionalJOption>
+                            <docletArtifact>
+                                <groupId>com.google.doclava</groupId>
+                                <artifactId>doclava</artifactId>
+                                <version>1.0.2</version>
+                            </docletArtifact>
+                            <additionalparam>
+                                -hdf project.name "${project.name}"
+                                -d ${project.reporting.outputDirectory}/apidocs
+                            </additionalparam>
+                        </configuration>
+                        <reportSets>
+                            <reportSet>
+                                <id>default</id>
+                                <reports>
+                                    <report>javadoc</report>
+                                </reports>
+                            </reportSet>
+                        </reportSets>
+                    </plugin>
+                </plugins>
+            </reporting>
+
             <build>
                 <plugins>
                     <plugin>
@@ -568,7 +601,6 @@
                             <additionalparam>
                                 -hdf project.name "${project.name}"
                                 -d ${project.build.directory}/apidocs
-                                -quiet
                             </additionalparam>
                         </configuration>
                     </plugin>

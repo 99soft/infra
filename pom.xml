@@ -42,7 +42,7 @@
     <scm>
         <url>http://github.com/99soft/infra</url>
         <connection>scm:git:ssh://github.com/99soft/infra.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/99soft/infra.git</developerConnection>
+        <developerConnection>scm:git:git+ssh://git@github.com/99soft/infra.git</developerConnection>
     </scm>
 
     <issueManagement>
@@ -358,6 +358,19 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-deploy-plugin</artifactId>
                 <version>2.5</version>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-scm-plugin</artifactId>
+                <version>1.3</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.apache.maven.scm</groupId>
+                        <artifactId>maven-scm-provider-gitexe</artifactId>
+                        <version>1.3</version>
+                    </dependency>
+                </dependencies>
             </plugin>
         </plugins>
 

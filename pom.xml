@@ -23,7 +23,7 @@
     <version>1-SNAPSHOT</version>
     <name>99 Software Foundation parent pom</name>
     <description>The 99 Software Foundation parent pom</description>
-    <url>https://www.99soft.org/</url>
+    <url>https://github.com/99soft/</url>
     <inceptionYear>2010</inceptionYear>
 
     <organization>
@@ -76,11 +76,6 @@
             <name>Nexus Release Repository</name>
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
-
-        <site>
-            <id>99soft.org</id>
-            <url>ftp://ftp.99soft.org/htdocs/projects/${project.artifactId}/${project.version}</url>
-        </site>
     </distributionManagement>
 
     <developers>
@@ -459,9 +454,9 @@
             </extension>
 
             <extension>
-                <groupId>org.apache.maven.wagon</groupId>
-                <artifactId>wagon-ftp</artifactId>
-                <version>1.0-beta-7</version>
+                <groupId>org.kathrynhuxtable.maven.wagon</groupId>
+                <artifactId>wagon-gitsite</artifactId>
+                <version>0.3.1</version>
             </extension>
         </extensions>
 

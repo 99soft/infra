@@ -111,7 +111,7 @@
         <javac.src.version>1.5</javac.src.version>
         <javac.target.version>1.5</javac.target.version>
         <maven.build.timestamp.format>yyyy-MM-dd HH:mm:ssZ</maven.build.timestamp.format>
-        <implementation.build>${maven.build.timestamp}</implementation.build>
+        <implementation.build>${buildNumber}; ${maven.build.timestamp}</implementation.build>
         <project.previousVersion>${project.version}</project.previousVersion>
         <!--
          | OSGi configuration properties
@@ -204,6 +204,24 @@
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>buildnumber-maven-plugin</artifactId>
+                <version>1.0</version>
+                <executions>
+                    <execution>
+                        <phase>validate</phase>
+                        <goals>
+                            <goal>create</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <doCheck>false</doCheck>
+                    <doUpdate>true</doUpdate>
+                </configuration>
+            </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-enforcer-plugin</artifactId>

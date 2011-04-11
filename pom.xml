@@ -20,7 +20,7 @@
     <groupId>org.99soft</groupId>
     <artifactId>oss-parent</artifactId>
     <packaging>pom</packaging>
-    <version>3-SNAPSHOT</version>
+    <version>3</version>
     <name>99 Software Foundation parent pom</name>
     <description>The 99 Software Foundation parent pom</description>
     <url>https://github.com/99soft/</url>

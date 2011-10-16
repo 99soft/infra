@@ -207,7 +207,6 @@
         <version>2.3.1</version>
         <configuration>
           <archive>
-            <manifestFile>${project.build.directory}/osgi/MANIFEST.MF</manifestFile>
             <manifest>
               <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
               <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>

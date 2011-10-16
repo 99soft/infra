@@ -129,8 +129,10 @@
           </execution>
         </executions>
         <configuration>
-          <doCheck>false</doCheck>
-          <doUpdate>true</doUpdate>
+          <!-- Use committed revision so it does not change every time svn update is run -->
+          <useLastCommittedRevision>true</useLastCommittedRevision>
+          <!-- default revision number if unavailable -->
+          <revisionOnScmFailure>??????</revisionOnScmFailure>
         </configuration>
       </plugin>
 

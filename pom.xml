@@ -336,7 +336,7 @@
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
           <artifactId>nexus-maven-plugin</artifactId>
-          <version>1.9.2.3 </version>
+          <version>1.9.2.3</version>
           <configuration>
             <nexusUrl>https://oss.sonatype.org/</nexusUrl>
             <serverAuthId>sonatype-nexus-staging</serverAuthId>

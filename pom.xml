@@ -20,7 +20,7 @@
 
   <groupId>org.99soft</groupId>
   <artifactId>oss-parent</artifactId>
-  <version>5</version>
+  <version>6-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>99 Software Foundation parent pom</name>

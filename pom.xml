@@ -296,7 +296,7 @@
           <configuration>
             <mavenExecutorId>forked-path</mavenExecutorId>
             <useReleaseProfile>false</useReleaseProfile>
-            <arguments>-Prelease</arguments>
+            <arguments>-Prelease,99soft</arguments>
           </configuration>
         </plugin>
 

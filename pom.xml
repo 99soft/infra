@@ -96,7 +96,7 @@
     <javac.src.version>1.5</javac.src.version>
     <javac.target.version>1.5</javac.target.version>
     <maven.build.timestamp.format>yyyy-MM-dd HH:mm:ssZ</maven.build.timestamp.format>
-    <implementation.build>${scmBranch}@${buildNumber}; ${maven.build.timestamp}</implementation.build>
+    <implementation.build>${buildNumber}; ${maven.build.timestamp}</implementation.build>
     <project.previousVersion>${project.version}</project.previousVersion>
   </properties>
 

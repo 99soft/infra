@@ -22,3 +22,14 @@
 ~~
 
 Google Guice Integrations
+
+*----------*---:
+| Component |  |
+*----------*----------------:
+| {{{http://99soft.github.com/Guartz}Guartz}} | Quartz integration, originally developed by {{{http://ninomartinez.wordpress.com/}Nino Martinez Wael}} |
+*----------*----------------:
+| {{{http://99soft.github.com/Rocoto}Rocoto}} | Expanded properties for Google Guice |
+*----------*----------------:
+| {{{http://99soft.github.com/sli4j}sli4j}} | Simple Logging Injector for Java |
+*----------*----------------:
+

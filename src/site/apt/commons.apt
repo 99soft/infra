@@ -23,9 +23,9 @@
 
 Common tools
 
-*----------*----------------:
-| Component | Right-aligned  |
-*----------*----------------:
+*----------*---:
+| Component |  |
+*----------*---:
 | {{{http://99soft.github.com/backport-spi}backport-spi}} | backport compatibility of Service Provider Interface APIs to Java5 |
 *----------*----------------:
 | {{{http://99soft.github.com/Hazelmap}Hazelmap}} | Simple Map/Reduce built on top of Hazelcast |

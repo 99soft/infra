@@ -22,3 +22,11 @@
 ~~
 
 Apache Maven Plugins
+
+*----------*---:
+| Component |  |
+*----------*----------------:
+| {{{http://99soft.github.com/fluido-skin}fluido-skin}} | An alternative site skin with rounded corners and code syntax highlight |
+*----------*----------------:
+| {{{http://99soft.github.com/solr-packager}solr-packager}} | A small collection of archetypes to simplify the creation of <Apache Solr> standalone applications based on <Apache Tomcat> |
+*----------*----------------:

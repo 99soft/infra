@@ -1,7 +1,7 @@
                                     ------
                                     Home
                                     ------
-                                    Patches
+                                    Patches and Pull Requests
                                     ------
                                      2012
 
@@ -21,4 +21,44 @@
 ~~   limitations under the License.
 ~~
 
-Patches
+Patches and Pull Requests
+
+  Patches and/or Pull Requests are welcome :) Please follow the conventions below as much as you can!
+
+* Respect The Original Style
+
+  Please respect the style of the orginal file. Make sure that your additions fit in with that style.
+
+  Every component has coding conventions and every contribution is supposed to adhere to them. You might find it a
+  little difficult to discover the conventions used by a particular component but if you stick to the style of the
+  original then that'll be fine.
+
+  If a patch/pull request is submitted which doesn't satisfy the component's coding conventions, then a committer will
+  need to rewrite the submission. Getting it right in this first place will save us a lot of work.
+
+* Spaces Not Tabs
+
+  The source should be indented using spaces rather than tabs. The standard indentation is 4 spaces per indent - but
+  respect the number of spaces used by the original.
+
+  Some IDEs include automatic source (re)formatting. If you use an IDE, please check that this feature is either
+  disabled or set to use (4) spaces.
+
+  If a patch is submitted which uses tabs rather than spaces, then a committer will have to reformat it before it's
+  applied. Again, it's easier to get it right in the first place rather than have to reformat and resubmit your patch.
+
+  Please try and restrict patches to the minimum necessary to implement the change. If there are a lot of irrelevant
+  formatting or other changes, it makes it much harder to review the patch.
+
+Test Cases
+
+  Components use {{{http://www.junit.org/index.html}JUnit}} or {{{http://testng.org/doc/index.html}TestNG}}for unit
+  testing.
+
+  <Before you submit your patch>, please do a clean build of the full distribution and run the unit tests. This ensures
+  that your patch doesn't break any existing functionality.
+
+  We strongly recommend that you create and submit test cases together with the rest of your contribution. Test cases
+  ensure that bugs stay fixed and features don't get broken. Test cases will probably be needed anyway so submitting
+  them saves time. If your patch is intended to fix a bug, it helps to create a unit test for the bug first. Test with
+  this before and after applying the fix.

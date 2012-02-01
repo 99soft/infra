@@ -22,3 +22,11 @@
 ~~
 
 Semantic Web
+
+*----------*---:
+| Component |  |
+*----------*----------------:
+| {{{http://99soft.github.com/sameas4j}sameas4j}} | Lightweight Java library for the Semantic Web sameas.org service |
+*----------*----------------:
+| {{{http://99soft.github.com/t2t}t2t}} | t2t means "triple to triple", it is indeed an RDF graph migration tool |
+*----------*----------------:

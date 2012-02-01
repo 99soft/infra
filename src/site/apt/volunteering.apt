@@ -22,3 +22,20 @@
 ~~
 
 Volunteering
+
+  The best way to contribute is to identify for yourself things that you
+  think are broken, or could be improved, and then propose a patch/pull request.
+
+  A couple of ways to identify possible candidates:
+
+  * Have you used component, and wished it would do something
+    a little more?  or a little different?  In open source circles,
+    people often get involved initially by "scratching your own itch"
+    as the saying goes.
+
+  * Have you called up the bug tracker for the related project, and seen any bugs that you
+    can create a patch/pull request for?
+
+  * Have you checked your favorite package's <<<TODO>>>
+    for things that have already been thought about, but just are
+    not done yet?

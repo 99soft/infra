@@ -22,3 +22,15 @@
 ~~
 
 Common tools
+
+*----------*----------------:
+| Component | Right-aligned  |
+*----------*----------------:
+| {{{http://99soft.github.com/backport-spi}backport-spi}} | backport compatibility of Service Provider Interface APIs to Java5 |
+*----------*----------------:
+| {{{http://99soft.github.com/Hazelmap}Hazelmap}} | Simple Map/Reduce built on top of Hazelcast |
+*----------*----------------:
+| {{{http://99soft.github.com/meiyo}meiyo}} | Meito is THE Java ClassPath and Class scanner |
+*----------*----------------:
+| {{{http://99soft.github.com/miyamoto}miyamoto}} | Lightweight yet powerful reusable Java5 Annotations Proxy |
+*----------*----------------:

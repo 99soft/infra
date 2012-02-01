@@ -22,3 +22,17 @@
 ~~
 
 Welcome to the 99 Software Foundation!
+
+  The 99 Software Foundation is a small community focused on all aspects of reusable Java components.
+
+  Our vision is composed of four parts:
+
+  * {{{./maven.html}Apache Maven Plugins}} - plugins for our preferred build rich client,
+    {{{http://maven.apache.org/}Apache Maven}}.
+
+  * {{{./commons.html}The common tools}} - A collection of reusable Java components.
+
+  * {{{./guice.html}Google Guice Integrations}} - A set of extensions for our preferred DI framework,
+    {{{http://code.google.com/p/google-guice/}Google Guice}}.
+
+  * {{{./semweb.html}Semantic Web}} - A series of lightweight yet powerful tools for the Semantic Web.

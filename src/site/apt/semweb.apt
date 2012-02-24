@@ -30,3 +30,5 @@ Semantic Web
 *----------*----------------:
 | {{{http://99soft.github.com/t2t}t2t}} | t2t means "triple to triple", it is indeed an RDF graph migration tool |
 *----------*----------------:
+| {{{http://99soft.github.com/be3}be3}} | Bean 2 RDF converter, kindly donated by Cybion Italia |
+*----------*----------------:

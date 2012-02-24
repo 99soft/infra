@@ -29,22 +29,22 @@
   <body>
     <menu name="99soft" inherit="bottom">
       <item name="Home"             href="http://99soft.github.com/" />
-      <item name="Apache Maven Plugins"     href="http://99soft.github.com/maven.html" collapse="true">
+      <item name="Apache Maven Plugins"     href="http://99soft.github.com/maven.html">
         <item name="fluido-skin"        href="http://99soft.github.com/fluido-skin" />
         <item name="solr-packager"        href="http://99soft.github.com/solr-packager" />
       </item>
-      <item name="Common tools"         href="http://99soft.github.com/commons.html" collapse="true">
+      <item name="Common tools"         href="http://99soft.github.com/commons.html">
         <item name="backport-spi"       href="http://99soft.github.com/backport-spi" />
         <item name="Hazelmap"           href="http://99soft.github.com/Hazelmap" />
         <item name="meiyo"              href="http://99soft.github.com/meiyo" />
         <item name="miyamoto"           href="http://99soft.github.com/miyamoto" />
       </item>
-      <item name="Google Guice Integrations"  href="http://99soft.github.com/guice.html" collapse="true">
+      <item name="Google Guice Integrations"  href="http://99soft.github.com/guice.html">
         <item name="Guartz"             href="http://99soft.github.com/guartz" />
         <item name="Rocoto"             href="http://99soft.github.com/rocoto" />
         <item name="sli4j"              href="http://99soft.github.com/sli4j" />
       </item>
-      <item name="Semantic Web"         href="http://99soft.github.com/semweb.html" collapse="true">
+      <item name="Semantic Web"         href="http://99soft.github.com/semweb.html">
         <item name="sameas4j"           href="http://99soft.github.com/sameas4j" />
         <item name="t2t"                href="http://99soft.github.com/t2t" />
       </item>

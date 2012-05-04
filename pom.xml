@@ -115,6 +115,7 @@
     <osgi.import>*</osgi.import>
     <osgi.dynamicImport />
     <osgi.private />
+    <osgi.fragment-host />
     <!--
      | shared build/report plugins version
     -->
@@ -321,6 +322,7 @@
             <Import-Package>${osgi.import}</Import-Package>
             <DynamicImport-Package>${osgi.dynamicImport}</DynamicImport-Package>
             <Bundle-DocURL>${project.url}</Bundle-DocURL>
+            <Fragment-Host>${osgi.fragment-host}</Fragment-Host>
           </instructions>
         </configuration>
         <executions>

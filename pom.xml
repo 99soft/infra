@@ -90,14 +90,35 @@
   </distributionManagement>
 
   <properties>
+    <!--
+     | source encoding
+    -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <!--
+     | compiler stuff
+    -->
     <javac.src.version>1.5</javac.src.version>
     <javac.target.version>1.5</javac.target.version>
+    <!--
+     | build version
+    -->
     <maven.build.timestamp.format>yyyy-MM-dd HH:mm:ssZ</maven.build.timestamp.format>
     <implementation.build>${buildNumber}; ${maven.build.timestamp}</implementation.build>
     <project.previousVersion>${project.version}</project.previousVersion>
+    <!--
+     | OSGi stuff
+    -->
+    <osgi.export>${project.groupId}.*;version=${project.version};-noimport:=true</osgi.export>
+    <osgi.import>*</osgi.import>
+    <osgi.dynamicImport />
+    <osgi.private />
+    <!--
+     | shared build/report plugins version
+    -->
+    <surefire.version>2.12</surefire.version>
+    <javadoc.version>2.8</javadoc.version>
   </properties>
 
   <repositories>

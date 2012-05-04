@@ -125,3 +125,17 @@ and run
 then recommit
 
 {{{ git ci -m "added simone's gpg key" && git push }}}
+
+== Deploy the site ==
+
+Clone the 99soft site
+
+{{{ git clone git@github.com:99soft/99soft.github.com.git }}}
+
+then, from infra, run
+
+{{{ mvn site -DoutputDirectory=/location/to/99soft.github.com }}}
+
+then, back to 99soft.github.com dir and run
+
+{{{ git ci -m "XXX" && git push }}}

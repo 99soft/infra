@@ -32,6 +32,8 @@ Google Guice Integrations
 *----------*----------------:
 | {{{http://99soft.github.com/GSPI}GSPI}} |  a Java5 compatible small collection of reusable tools for Google Guice to make easier the integration with the Service Provider Interface pattern. |
 *----------*----------------:
+| {{{http://99soft.github.com/junice}JUnice}} | Simple library to inject a Junit4 test classes via Google-Guice. |
+*----------*----------------:
 | {{{http://99soft.github.com/lifegycle}Lifegycle}} | @AfterInjection and @Dispose Guice annotations handlers |
 *----------*----------------:
 | {{{http://99soft.github.com/Rocoto}Rocoto}} | Expanded properties for Google Guice |

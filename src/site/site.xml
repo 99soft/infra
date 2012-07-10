@@ -42,8 +42,9 @@
         <item name="miyamoto"           href="http://99soft.github.com/miyamoto" />
       </item>
       <item name="Google Guice Integrations"  href="http://99soft.github.com/guice.html" collapse="true">
-        <item name="GSPI"               href="http://99soft.github.com/gspi" />
+        <item name="G-Guava"            href="https://github.com/99soft/g-guava" />
         <item name="Guartz"             href="http://99soft.github.com/guartz" />
+        <item name="GSPI"               href="http://99soft.github.com/gspi" />
         <item name="Lifegycle"          href="http://99soft.github.com/lifegycle" />
         <item name="Rocoto"             href="http://99soft.github.com/rocoto" />
         <item name="sli4j"              href="http://99soft.github.com/sli4j" />

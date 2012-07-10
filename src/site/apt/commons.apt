@@ -26,6 +26,8 @@ Common tools
 *----------*---:
 | Component |  |
 *----------*---:
+| {{{http://99soft.github.com/99Launcher}99Launcher}} | lightweight CLI commands launcher, based on JCommander and Google Guice |
+*----------*----------------:
 | {{{http://99soft.github.com/backport-spi}backport-spi}} | backport compatibility of Service Provider Interface APIs to Java5 |
 *----------*----------------:
 | {{{http://99soft.github.com/Hazelmap}Hazelmap}} | Simple Map/Reduce built on top of Hazelcast |

@@ -36,6 +36,7 @@
         <item name="solr-packager"        href="http://99soft.github.com/solr-packager" />
       </item>
       <item name="Common tools"         href="http://99soft.github.com/commons.html" collapse="true">
+        <item name="99Launcher"         href="http://99soft.github.com/99Launcher" />
         <item name="backport-spi"       href="http://99soft.github.com/backport-spi" />
         <item name="Hazelmap"           href="http://99soft.github.com/Hazelmap" />
         <item name="meiyo"              href="http://99soft.github.com/meiyo" />

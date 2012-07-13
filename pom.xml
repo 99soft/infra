@@ -20,7 +20,7 @@
 
   <groupId>org.99soft</groupId>
   <artifactId>oss-parent</artifactId>
-  <version>9-SNAPSHOT</version>
+  <version>9</version>
   <packaging>pom</packaging>
 
   <name>99 Software Foundation parent pom</name>
@@ -69,6 +69,7 @@
     <url>http://github.com/99soft/infra</url>
     <connection>scm:git:ssh://github.com/99soft/infra.git</connection>
     <developerConnection>scm:git:git+ssh://git@github.com/99soft/infra.git</developerConnection>
+    <tag>oss-parent-9</tag>
   </scm>
   <issueManagement>
     <system>GitHub Issue Management</system>

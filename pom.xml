@@ -136,6 +136,10 @@
     <surefire.version>2.12</surefire.version>
     <javadoc.version>2.8</javadoc.version>
     <cobertura.version>2.5.1</cobertura.version>
+    <!--
+     | aux settings
+    -->
+    <site.skip>false</site.skip>
   </properties>
 
   <repositories>
@@ -364,6 +368,8 @@
         <version>3.1</version>
         <configuration>
           <locales>en</locales>
+          <skip>${site.skip}</skip>
+          <skipDeploy>${site.skip}</skipDeploy>
           <reportPlugins>
             <plugin>
               <groupId>org.apache.maven.plugins</groupId>

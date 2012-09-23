@@ -49,11 +49,40 @@
     </developer>
 
     <developer>
+      <id>grobmeier</id>
+      <name>Christian Grobmeier</name>
+      <email>grobmeier [at] gmail [dot] com</email>
+      <url>http://www.grobmeier.de/</url>
+      <timezone>+1</timezone>
+    </developer>
+
+    <developer>
+      <id>manzke</id>
+      <name>Daniel Manzke</name>
+      <email>daniel [dot] manzke [at] gmail [dot] com</email>
+      <url>http://devsurf.wordpress.com//</url>
+      <timezone>+1</timezone>
+    </developer>
+
+    <developer>
       <id>marcosperanza</id>
       <name>Marco Speranza</name>
       <email>marco [dot] speranza79 [at] gmail [dot] com</email>
       <url>http://www.marcosperanza.org/</url>
       <timezone>+1</timezone>
+    </developer>
+
+    <developer>
+      <id>mox601</id>
+      <name>Matteo Moci</name>
+      <email>mox601 [at] gmail [dot] com</email>
+      <timezone>+1</timezone>
+    </developer>
+
+    <developer>
+      <id>nmwael</id>
+      <name>Nino Martinez Wael</name>
+      <email>nino [dot] martinez [dot] wael [at] gmail [dot] com</email>
     </developer>
 
     <developer>
